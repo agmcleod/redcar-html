@@ -21,7 +21,7 @@ module Redcar
       def execute
         if doc.selection?
           text = doc.selected_text
-          lines = text.split(/\n/)
+          lines = text.split(/\r\n?|\n/)
           lines.collect! do |c| 
             wrapped = wrap_text_in_white_space(c) { |t| "<li>#{t}</li>" } 
             p "Wrapped: |#{wrapped}|"
