@@ -4,8 +4,7 @@
 Adds some helpful HTML commands and shortcuts for editing HTML documents.
 
 ## Installation
-    cd ~/.redcar/plugins
-    git clone http://github.com/agmcleod/redcar-html.git html
+    gem install redcar-html
     
 ### Usage
 Wrap multiple lines as a list:
